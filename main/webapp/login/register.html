@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<video id="v1" autoplay loop muted>
+    <source src="images/注册背景2.mp4" type="video/mp4"  />
+</video>
+<form action="login" method="post" name="MyForm_Register" onsubmit="return SubmitRegister()">
+    <div class="one">
+        <span class="span1" style="color:lightcyan; font-weight: 700">用户名</span>
+        <input class="input1" id="u_name" name="u_name" type="text" style="outline: 0">
+    </div>
+    <div class="two">
+        <span class="span2" style="color:lightcyan; font-weight: 700">请输入密码</span>
+        <input class="input2" id="u_pass0" name="u_pass0" type="password" style="outline: 0">
+    </div>
+
+    <div class="three">
+        <span class="span3"  style="color:lightcyan; font-weight: 700">请确认密码</span>
+        <input class="input3" id="u_pass1" name="u_pass1" type="password" style="outline: 0"><br>
+    </div>
+
+    <input class="input4" type="submit" value="注册">
+</form>
+</body>
+<script src="register.js"></script>
+</html>

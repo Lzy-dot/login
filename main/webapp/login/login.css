@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.father {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: green; */
+    background-image: url(images/bg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left {
+    background-color: red;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    width: 300px;
+    height: 535px;
+    overflow: hidden;
+}
+
+.img {
+    /* display: flex; */
+    /* background-image: url(images/a1.png); */
+    /*overflow: hidden;*/
+    /* position: absolute; */
+    /* background-color: red; */
+    /* top: 30%;
+    left: 35%; */
+    width: 2700px;
+    height: 535px;
+    animation: switch 30s ease-in-out infinite;
+}
+
+.img div {
+    float: left;
+    width: 300px;
+    height: 535px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.images1 {
+    background-image: url(images/1.JPG);
+
+}
+
+.images2 {
+    background-image: url(images/2.JPG);
+}
+
+.images3 {
+    background-image: url(images/3.JPG);
+}
+
+.images4 {
+    background-image: url(images/4.JPG);
+}
+
+.images5 {
+    background-image: url(images/5.JPG);
+}
+
+.images6 {
+    background-image: url(images/6.JPG);
+}
+
+.images7 {
+    background-image: url(images/7.JPG);
+}
+
+.images8 {
+    background-image: url(images/8.JPG);
+}
+
+.images9 {
+    background-image: url(images/9.JPG);
+}
+
+#slick_dots {
+    position: relative;
+}
+
+
+
+#slick-dots>li>button {
+    /* display: inline-block; */
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    line-height: 0;
+    font-size: 0;
+    background-color: #c9c9c9;
+    border-radius: 50%;
+    border: none;
+    margin: 0 3px;
+}
+
+#btn1001 {
+    width: 9px;
+    height: 9px;
+    line-height: 0;
+    font-size: 0;
+    border-radius: 50%;
+    border: none;
+    padding-top: 3px;
+    margin-left: -44px;
+    margin-top: -13px;
+    position: absolute;
+    background-color: #0852a2;
+    animation: change 8s ease-in-out infinite;
+}
+
+@keyframes switch {
+
+    0%,
+    8% {
+        /* margin-left: 0; */
+        transform: translateX(0vw);
+    }
+
+    11.5%,
+    19.5% {
+        /* margin-left: -100vw; */
+        transform: translateX(-300px);
+    }
+
+    23%,
+    31% {
+        transform: translateX(-600px);
+    }
+
+    34.5%,
+    42.5% {
+        transform: translateX(-900px);
+    }
+
+
+    46%,
+    54% {
+        transform: translateX(-1200px);
+    }
+
+    57.5%,
+    65.5% {
+        transform: translateX(-1500px);
+    }
+
+    69%,
+    77% {
+        transform: translateX(-1800px);
+    }
+
+    80.5%,
+    88.5% {
+        transform: translateX(-2100px);
+    }
+
+    93%,
+    100% {
+        transform: translateX(-2400px);
+    }
+
+
+
+}
+
+@keyframes change {
+
+    0%,
+    20% {
+        left: 2.8%;
+    }
+
+    35%,
+    55% {
+        left: 3.8%;
+    }
+
+    70%,
+    100% {
+        left: 4.8%;
+    }
+}
+
+.u_account {
+    width: 32px;
+    height: 32px;
+    background-image: url(images/登录.png);
+}
+
+.u_password {
+    width: 32px;
+    height: 32px;
+    background-image: url(images/密码.png);
+}
+
+.login {
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* display: flex; */
+}
+
+.phone{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    display: none;
+}
+
+.phone input {
+    font-size: larger;
+    font-weight: 600;
+    height: 46px;
+    width: 200px;
+    padding: 0 5px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    position: relative;
+    border: rgba(245, 242, 242, 0.836) 2px solid ;
+}
+
+.button input {
+    border-radius: 15px;
+    /*margin-left: 50px;*/
+    border: 1px solid rgba(245, 242, 242, 0.836);
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    margin-left: 80px;
+    margin-right: 30px;
+    position: absolute;
+    left: 15%;
+    /*padding-left: 10px;*/
+}
+
+.login input {
+    font-size: larger;
+    font-weight: 600;
+    height: 46px;
+    width: 200px;
+    padding: 0 5px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    position: relative;
+    border: rgba(245, 242, 242, 0.836) 2px solid !important;
+}
+
+.btn {
+    padding: 0;
+    display: flex;
+    margin-left: 10px;
+}
+
+.btn input {
+    border-radius: 15px;
+    margin-left: 50px;
+    border: 1px solid rgba(245, 242, 242, 0.836);
+    display: inline-block;
+     width: 50px;
+     height: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+#phone{
+
+}

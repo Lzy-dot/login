@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+video{
+    /*position: fixed;*/
+    /*right: 0px;*/
+    /*bottom: 0px;*/
+    /*min-width: 100%;*/
+    /*min-height: 100%;*/
+    /*height: auto;*/
+    /*width: auto;*/
+    /*加滤镜*/
+    /*filter: blur(15px); //背景模糊设置*/
+    /*-webkit-filter: grayscale(100%);*/
+    /*filter:grayscale(100%); //背景灰度设置*/
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-fit: cover; height: 100%; width: 100%;
+    z-index:-11
+}
+source{
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+input{
+    font-size: larger;
+    font-weight: 700;
+    color:red;
+    background:none;
+    position: absolute;
+    height: 46px;
+    width: 230px;
+    /*padding: 0 5px;*/
+    margin-bottom: 30px;
+    border-radius: 50px;
+    /*position: relative;*/
+    border: rgba(245, 242, 242, 0.836) 5px solid !important;
+}
+
+input::-webkit-input-placeholder {
+    color: red;
+    font-size: 14px;
+}
+
+span{
+    position: absolute;
+}
+
+.span1{
+    top: 37%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /*margin-right: 5px;*/
+}
+.span2{
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /*padding-right: 10px;*/
+}
+.span3{
+    top: 53%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /*margin-right: 5px;*/
+}
+
+
+.input1{
+    margin-left: 10px;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input2{
+    margin-left: 10px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input3{
+    margin-left: 10px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input4{
+    height: 40px;
+    width: 100px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
